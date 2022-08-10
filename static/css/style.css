@@ -1,0 +1,190 @@
+/*
+Common 
+**********************/
+
+html,
+body {
+    width: 100%;
+    margin:0;
+    font-family: monospace;
+    font-size: large;
+}
+.content {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.header{
+    display: flex;
+}
+.header img{
+    width: 70px;
+}
+/*
+Post
+**********************/
+
+/* .posts {
+    position: relative;
+    left: 30px;
+} */
+img.image-likebtn {
+    width: 100%;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    width: 9%;
+}
+
+img.post-img {
+    width: 80%;
+}
+
+img.user-icon {
+    width: 90%;
+}
+
+form {
+    display: flex;
+}
+.post-form-input{
+    width: 100%;
+}
+
+.posts_form-icon {
+    width: 15%;
+}
+
+input#files {
+    border: 1px solid #CCC;
+    padding: 9px;
+}
+
+.file-tweet {
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts_form { 
+    padding: 20px 40px 20px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.posts_form .name {
+    width: 97%;
+    margin-bottom: 10px;
+    padding: 15px 10px;
+    border: none;
+    background-color: #e6fef7;
+    border-radius: 5px;
+}
+
+.posts_form textarea {
+    width: 97%;
+    padding: 9px 4px 68px 11px;
+    border: none;
+}
+
+
+.posts ul {
+    padding: 0;
+    list-style-type: none;
+}
+.posts li{
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 20px;
+    list-style: none;
+}
+
+.posts li .menu_icon{
+    width: 20px;
+    position: absolute;
+    top: 18px;
+    right: 30px;
+}
+
+
+.posts li .menu {
+    display: none;
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 17px;
+    border-radius: 3px;
+    width: 12%;
+}
+
+.posts li .menu a {
+    text-decoration: none;
+    color:black;
+}
+
+.posts li .logo {
+    flex-basis: 15%;
+    /* display: flex; */
+}
+
+.posts li .logo img {
+    width: 70px;
+}
+
+button.tweet {
+    padding: 10px 20px;
+    background-color: rgb(29, 161, 242);
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+
+a#cancel {
+    text-decoration: none;
+    color: white;
+}
+
+.Updatebtn{
+    padding: 10px 20px;
+    background-color: rgb(29, 161, 242);
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+input#files1 {
+    border: 1px solid #CCC;
+    padding: 9px;
+    width: 97%;
+}
+
+.post li .name_body {
+    flex-basis: 85%;
+}
+
+.posts li .name_body .name {
+    font-weight: bold;
+}
+
+.post li .name_body .datetime {
+    color: gray;
+}
+
+@media screen and (max-width: 500px){
+    .posts li .name_body .name {
+        font-size: 20px;
+    }
+}
+
+    
