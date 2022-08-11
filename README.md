@@ -4,7 +4,7 @@ This Twitter Clone is a small project using HTML / CSS / JavaScript Using Django
 [Live Heroku Deployment](https://oluwabusola-twitterclone.herokuapp.com/)
 
 ## Screenshot:
- <img width="643" alt="Screenshot 2022-03-30 at 10 00 22 AM" src="https://user-images.githubusercontent.com/100840426/160757587-a66591e4-e1b6-4598-adc8-1102c02e10b1.png">
+ <img width="643" alt="Screenshot 2022-03-30 at 10 00 22 AM" src="https://github.com/Oluwab/TwitterClone/blob/master/static/img/Screen%20Shot%202022-08-11%20at%206.07.34%20PM.png">
 
 
 
